@@ -3,6 +3,7 @@ site_description: A blog about technology, programming, and personal projects.
 site_url: https://yuvaraj.dev
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Merriweather Sans
     code: Red Hat Mono
