@@ -1,0 +1,60 @@
+site_name: Yuvaraj Blog
+site_description: A blog about technology, programming, and personal projects.
+site_url: https://yuvaraj.dev
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/Y
+  #logo: assets/logo.png
+  #favicon: assets/favicon.ico
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      archive_date_format: MM/yyyy
+      archive_url_date_format: MM/yyyy
+      categories_allowed:
+        - Technology
+        - Programming
+  - tags:
+      tags_file: tags.md
+      
+  - rss:
+      match_path: ".*"
+      pretty_print: true
+      rss_feed_enabled: true
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+      enabled: true
+      feed_description: "My custom feed description"  
+      feeds_filenames:
+        json_created: feed_json_created.json
+        json_updated: feed_json_updated.json
+        rss_created: feed_rss_created.xml
+        rss_updated: feed_rss_updated.xml
+      feed_title: "My custom feed title" 
+      url_parameters:
+        utm_source: "documentation"
+        utm_medium: "RSS"
+        utm_campaign: "feed-syndication"
