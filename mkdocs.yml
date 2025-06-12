@@ -39,7 +39,6 @@ plugins:
         - Programming
   - tags:
       tags_file: tags.md
-      
   # - rss:
   #     match_path: ".*"
   #     pretty_print: true
