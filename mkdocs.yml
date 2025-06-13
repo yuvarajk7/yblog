@@ -1,6 +1,6 @@
 site_name: Yuvaraj Blog
 site_description: A blog about technology, programming, and personal projects.
-site_url: https://yuvaraj.dev
+site_url: https://yuvarajk7.github.io/yblog
 theme:
   name: material
   custom_dir: overrides
