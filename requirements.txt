@@ -17,9 +17,25 @@ requests~=2.32
 # mkdocs plugins
 mkdocs-glightbox~=0.4.0
 mkdocs-get-deps~=0.2.0
-mkdocs-minify-plugin~=0.8.0
-mkdocs-minify-html-plugin~=0.3.1
 mkdocs-git-committers-plugin-2~=2.5.0
 mkdocs-git-revision-date-localized-plugin~=1.4.7
 mkdocs-rss-plugin~=1.17.3
 mkdocs-redirects~=1.2.2
+mkdocs-mermaid2-plugin~=1.2.2
+mkdocs-minify-html-plugin~=0.3.4
+mkdocs-exclude~=1.0.2
+# mkdocs-awesome-pages-plugin~=2.9.2
+# mkdocs-macros-plugin~=1.0.5
+# mkdocs-exclude~=1.0.2
+# mkdocs-blogging-plugin~=2.2.2
+# mkdocs-static-i18n~=1.2.0
+
+
+# enhanced functionality
+#pillow~=10.3.0  # image processing
+# pyyaml~=6.0.1  # yaml handling
+# beautifulsoup4~=4.12.3  # html processing
+# click~=8.1.7  # command line interface
+# watchdog~=3.0.0  # file watching
+# lunr~=0.7.0  # search
+#mdx-truly-sane-lists~=1.3  # better markdown lists

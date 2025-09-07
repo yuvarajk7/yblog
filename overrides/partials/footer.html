@@ -1,0 +1,23 @@
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!-- Left-aligned copyright with vertical centering -->
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <!-- Copyright on the left with extra small font -->
+        <div class="md-footer-copyright" style="text-align: left; font-size: 0.6rem;">
+          {% if config.copyright %}
+            <div class="md-footer-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}
+        </div>
+     
+
+        <!-- Social links on the right -->
+        <div style="text-align: right;">
+          {% include "partials/social.html" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
