@@ -26,8 +26,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: #2B3459
+      accent: #008080
 extra:
   social:
     - icon: material/rss
@@ -44,14 +44,18 @@ plugins:
       glob:
         - "docs/drafts/*"
   - search
-  - mermaid2
-  - minify_html
+  #- mermaid2
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+      remove_comments: true
+      cache_safe: true
   - blog:
       blog_dir: .
       archive_date_format: MM/yyyy
       archive_url_date_format: MM/yyyy
-      blog_title: ""
-      show_title: false
       categories_allowed:
         - Technology
         - Programming
@@ -85,8 +89,6 @@ plugins:
       height: auto
       zoomable: true
       draggable: true
-  - minify:
-      minify_html: true
 
  
 

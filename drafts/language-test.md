@@ -104,6 +104,16 @@ fn main() {
 }
 ```
 
+## Sample Mermaid Diagram
+
+```mermaid
+graph TD
+    Start --> Check[Is it working?]
+    Check -- Yes --> Success[Great!]
+    Check -- No --> Fix[Check configuration]
+    Fix --> Check
+```
+
 ---
 
 Feel free to add more languages as needed!
