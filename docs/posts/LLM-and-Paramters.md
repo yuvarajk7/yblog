@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-09-06
+    created: 2025-09-09
 categories:
     - AI
 ---
