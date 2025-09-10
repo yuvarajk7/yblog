@@ -59,6 +59,7 @@ plugins:
       categories_allowed:
         - Technology
         - Programming
+        - AI
   - tags:
       tags_file: tags.md
   - rss:
