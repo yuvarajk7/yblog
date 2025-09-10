@@ -1,6 +1,9 @@
 site_name: Yuvaraj Blog
 site_description: A blog about technology, programming, and personal projects.
 site_url: https://yuvarajk7.github.io/yblog
+site_author: Yuvaraj
+repo_url: https://github.com/yuvarajk7
+repo_name: yuvarajk7
 copyright: © 2025 Yuvaraj Blog
 
 theme:

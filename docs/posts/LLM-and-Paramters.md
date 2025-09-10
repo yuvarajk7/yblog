@@ -3,6 +3,8 @@ date:
     created: 2025-09-09
 categories:
     - AI
+tags:
+    - LLM
 ---
 
 # LLM Models and Parameters
@@ -17,7 +19,7 @@ Many LLM models are available on the market, which can make it overwhelming to c
 
 [![Transformer Architecture](../glimages/LLM-and-Paramters.png)](../glimages/LLM-and-Paramters.png){.glightbox title="Transformer Architecture"}
 
-### Transformer Architectures
+## Transformer Architectures
 
 The Transformer supports three main architectures:
 
@@ -98,7 +100,7 @@ Multimodal models (MLLMs) can process and understand multiple data types (text, 
 *   **Unified Embedding Approach**: Modalities are encoded into the same embedding space as text. This is simple but can lose detail. Used in models like `Pix2Struct` and `Fuyu`.
 *   **Cross-Attention Approach**: Image encodings are connected to the LLM via cross-attention layers, allowing selective focus. This is more complex but more powerful. Used in models like `Flamingo` and `LLaVA`.
 
-# Fine-tuning Models
+## Fine-tuning Models
 
 Fine-tuning large models is resource-intensive. **Parameter-Efficient Fine-Tuning (PEFT)** techniques adapt models by updating only a small number of parameters. The benefits include:
 
@@ -106,14 +108,14 @@ Fine-tuning large models is resource-intensive. **Parameter-Efficient Fine-Tunin
 *   Tiny storage for task-specific parameters.
 *   Preservation of original model knowledge.
 
-Popular PEFT methods:
+### Popular PEFT methods:
 
 *   **`LoRA` (Low-Rank Adaptation)**: Adds small, trainable matrices to each layer.
 *   **`QLoRA` (Quantized Low-rank Adaptation)**: Combines `LoRA` with quantization to fine-tune very large models on a single GPU.
 *   **Prompt Tuning**: Learns a small set of trainable embeddings (“soft prompts”) prepended to the input.
 *   **Prefix Tuning**: Injects trainable vectors (“prefixes”) into the attention mechanism of each layer.
 
-# Costs
+## Costs
 
 Model choice is only part of the challenge; cost is equally important.
 
