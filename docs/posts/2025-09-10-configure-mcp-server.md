@@ -76,3 +76,5 @@ In the GitHub Copilot chat window, select an agent and an LLM model, then ask a 
 "List the tables in the Person schema."
 
 The agent will interact with the MCP database server to run the query and return the list of tables in the `Person` schema in the chat window.
+
+---

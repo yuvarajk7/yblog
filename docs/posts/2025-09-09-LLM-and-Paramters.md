@@ -127,3 +127,4 @@ Model choice is only part of the challenge; cost is equally important.
     *   More control and flexibility, but you manage the infrastructure.
     *   Costs are based on GPU rental (hourly billing).
     *   Use tools like Hugging Face’s model memory estimator to plan VRAM
+---
