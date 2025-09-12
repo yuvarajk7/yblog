@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+body, .md-typeset {
+  font-size: 18px;      /* Between 16px and 18px */
+  line-height: 1.5;
+}
+
+body, .md-typeset p {
+  text-align: justify;
+}
+
+header.md-typeset > p:first-child {
+  display: none;
+}
+
+/* Code font settings for code blocks and inline code */
+code, pre, .md-typeset code, .md-typeset pre {
+  font-size: 16px;           /* Between 12–14px */
+  line-height: 1.5;          /* Between 1.4–1.6 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

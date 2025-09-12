@@ -1,0 +1,86 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Yuvaraj AI Blog",
+    "home_page_url": "https://yuvarajk7.github.io/yblog/",
+    "feed_url": "https://yuvarajk7.github.io/yblog/feed_json_created.json",
+    "description": "Yuvaraj article feeds",
+    "icon": null,
+    "authors": [
+        {
+            "name": "Yuvaraj"
+        }
+    ],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/11/using-jupyter-from-vs-code-or-standalone-project/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/11/using-jupyter-from-vs-code-or-standalone-project/",
+            "title": "Using Jupyter from VS code or Standalone project",
+            "content_html": "<h1>Using Jupyter from VS code or Standalone project</h1>\n<h2>VS code</h2>\n<p>To connect a uv-managed project to a Jupyter notebook within VS Code by creating a kernel of t...</p>",
+            "image": null,
+            "date_published": "2025-09-11T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/11/create-a-python-project-using-uv-and-manage-dependencies/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/11/create-a-python-project-using-uv-and-manage-dependencies/",
+            "title": "Create a Python Project Using uv and Manage Dependencies",
+            "content_html": "<h1>Create a Python Project Using uv and Manage Dependencies</h1>\n<h2>Create a Python Project</h2>\n<p><code>bash\nuv init pyprojects</code></p>\n<p>This command automatically creates th...</p>",
+            "image": null,
+            "date_published": "2025-09-11T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/11/python-package-and-project-manager-tool--uv/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/11/python-package-and-project-manager-tool--uv/",
+            "title": "Python Package and Project Manager Tool \u2013 uv",
+            "content_html": "<h1>Python Package and Project Manager Tool \u2013 <strong>uv</strong></h1>\n<p><strong>uv</strong> is a single tool that replaces <code>pip</code>, <code>pip-tools</code>, <code>pipx</code>, <code>poetry</code>, <code>pyenv</code>, <code>twine</code>, `virtualenv...</p>",
+            "image": null,
+            "date_published": "2025-09-11T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/10/configure-mcp-server-in-visual-studio-and-vs-code/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/10/configure-mcp-server-in-visual-studio-and-vs-code/",
+            "title": "Configure MCP Server in Visual Studio and VS Code",
+            "content_html": "<h1>Configure MCP Server in Visual Studio and VS Code</h1>\n<p>This article explains how to configure MCP servers in Visual Studio and Visual Studio Code. The Model Co...</p>",
+            "image": null,
+            "date_published": "2025-09-10T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "AI"
+            ]
+        },
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/09/llm-models-and-parameters/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/09/llm-models-and-parameters/",
+            "title": "LLM Models and Parameters",
+            "content_html": "<h1>LLM Models and Parameters</h1>\n<h2>Models</h2>\n<p>Many LLM models are available on the market, which can make it overwhelming to choose the right one. In this article,...</p>",
+            "image": null,
+            "date_published": "2025-09-09T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "AI"
+            ]
+        },
+        {
+            "id": "https://yuvarajk7.github.io/yblog/2025/09/06/2025-09-06-introduction/",
+            "url": "https://yuvarajk7.github.io/yblog/2025/09/06/2025-09-06-introduction/",
+            "title": "2025 09 06 Introduction",
+            "content_html": "<h2>\ud83d\udc66About Me.</h2>\n<blockquote>\n<p>I\u2019m <strong><em>Yuvaraj Kesavan</em></strong>, a hands-on engineering leader with over two decades of experience building scalable, distributed applications acr...</p>\n</blockquote>",
+            "image": null,
+            "date_published": "2025-09-06T00:00:00+00:00",
+            "authors": [],
+            "tags": []
+        }
+    ]
+}
