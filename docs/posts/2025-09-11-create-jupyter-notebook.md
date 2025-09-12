@@ -41,8 +41,8 @@ uv pip install jupyterlab
 ```
 
 It launchs the url http://localhost:8888/lab. you can install additional packages via `!uv pip install`, or even `!pip install`.
+To launch the existing notebook again, `.venv\Scripts\jupyter lab`
 
 [![Jupyter Notebook](../glimages/jupyter-notebook.png)](../glimages/jupyter-notebook.png){.glightbox title="Jupyter Notebook"}
 
-To launch the existing notebook again, `.venv\Scripts\jupyter lab`
 ---
