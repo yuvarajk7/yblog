@@ -8,10 +8,11 @@ tags:
 ---
 # AI System Design
 
-AI System design consists of three paradigms <br/>
-1. Single LLM feature <br/>
-2. Structure Workflow <br/>
-3. Autonomous Agents <br/>
+AI System design consists of three paradigms
+
+1. Single LLM feature 
+2. Structure Workflow 
+3. Autonomous Agents
 
 ## Single LLM
 Single LLM is a simple and perform single one shot task. It is stateless processing. No retention of information or context across interactions. It is straight forward request/response mechanism and suitable only for clearly defined, single step actions.
@@ -19,6 +20,7 @@ Single LLM is a simple and perform single one shot task. It is stateless process
 It is best usecase for simple well defined tasks that require no memory or multi-step logic. The main advantage is simple, speed, deterministic output and low cost
 
 Example:<br/>
+
 - Text summarization<br/>
 - Sentiment classification<br/>
 - Informaiton extraction<br/>
@@ -33,9 +35,10 @@ Consider processing insurance claims, where each document is scanned, informatio
 
 Best uses for repetitive, multi-step tasks with clear logic and minimal ambiguity, regulatory or compliance-driven applications. The limitation is to difficult to adapting to new scenarios and development overhead.
 
-Example:<br/>
-- Document and data pipelines (Optical Character Recognition (OCR) → extraction → validation → storage)<br/>
-- Batch report generation<br/>
+Example:
+
+- Document and data pipelines (Optical Character Recognition (OCR) → extraction → validation → storage)
+- Batch report generation
 - Financial and healthcare transaction processing
 
 [![Workflow LLM](../glimages/workflow-llm.png)](../glimages/workflow-llm.png)
@@ -47,9 +50,10 @@ It is best use for complex, open-ended tasks with unclear solution paths, scenar
 
 The advantage is highly adaptable, dynamic decision making, reduces human intervention. The limitations are unpredictable outcomes, higher complexity cost.
 
-Example:<br/>
-- Research Agent<br/>
-- Customer support and troubleshooting<br/>
+Example:
+
+- Research Agent
+- Customer support and troubleshooting
 - Automation
 
 [![Autonomous Agent](../glimages/agent-llm.png)](../glimages/agent-llm.png)

@@ -69,6 +69,7 @@ print(message.content[0].text)
 It is very tedious switching different LLM provider when building AI agents. Each provider provides different interfaces and it will impacts the cost and performance requirements. LiteLLM solves this problem. LiteLLM  is an open source library that gives you a single, unified interface to call 100 LLMs.
 
 LiteLLM main features are,
+
 - Call any provider using the same completion() interface
 - Consistent output format regardless of which provider or model you use
 - Built-in retry / fallback logic across multiple deployments via the Router
