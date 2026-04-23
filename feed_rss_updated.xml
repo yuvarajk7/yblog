@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Yuvaraj AI Blog</title>
+    <description>Yuvaraj article feeds</description>
+    <link>https://yuvarajk7.github.io/yblog/</link>
+    <atom:link href="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>Yuvaraj</managingEditor>
+    <docs>https://github.com/yuvarajk7</docs>
+    <language>en</language>
+
+    
+    <pubDate>Thu, 23 Apr 2026 23:17:25 -0000</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2026 23:17:25 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.17.9</generator>
+
+    
+    
+    <image>
+      <url>None</url>
+      <title>Yuvaraj AI Blog</title>
+      <link>https://yuvarajk7.github.io/yblog/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>2025 09 06 Introduction</title>
+      
+      
+      
+      
+        
+      
+      <description>&lt;h2&gt;👦About Me.&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m &lt;strong&gt;&lt;em&gt;Yuvaraj Kesavan&lt;/em&gt;&lt;/strong&gt;, a hands-on engineering leader with over two decades of experience building scalable, distributed applications acr...&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/06/2025-09-06-introduction/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/06/2025-09-06-introduction/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/06/2025-09-06-introduction/</guid>
+      
+    </item>
+    
+    <item>
+      <title>LLM Models and Parameters</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;LLM Models and Parameters&lt;/h1&gt;
+&lt;h2&gt;Models&lt;/h2&gt;
+&lt;p&gt;Many LLM models are available on the market, which can make it overwhelming to choose the right one. In this article,...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/09/llm-models-and-parameters/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/09/llm-models-and-parameters/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/09/llm-models-and-parameters/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Configure MCP Server in Visual Studio and VS Code</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;Configure MCP Server in Visual Studio and VS Code&lt;/h1&gt;
+&lt;p&gt;This article explains how to configure MCP servers in Visual Studio and Visual Studio Code. The Model Co...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/10/configure-mcp-server-in-visual-studio-and-vs-code/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/10/configure-mcp-server-in-visual-studio-and-vs-code/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/10/configure-mcp-server-in-visual-studio-and-vs-code/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Using Jupyter from VS code or Standalone project</title>
+      
+      
+      
+      
+        
+      <category>Python</category>
+        
+      
+      <description>&lt;h1&gt;Using Jupyter from VS code or Standalone project&lt;/h1&gt;
+&lt;h2&gt;VS code&lt;/h2&gt;
+&lt;p&gt;To connect a uv-managed project to a Jupyter notebook within VS Code by creating a kernel of t...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/11/using-jupyter-from-vs-code-or-standalone-project/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/11/using-jupyter-from-vs-code-or-standalone-project/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/11/using-jupyter-from-vs-code-or-standalone-project/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Create a Python Project Using uv and Manage Dependencies</title>
+      
+      
+      
+      
+        
+      <category>Python</category>
+        
+      
+      <description>&lt;h1&gt;Create a Python Project Using uv and Manage Dependencies&lt;/h1&gt;
+&lt;h2&gt;Create a Python Project&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;bash
+uv init pyprojects&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This command automatically creates th...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/11/create-a-python-project-using-uv-and-manage-dependencies/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/11/create-a-python-project-using-uv-and-manage-dependencies/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/11/create-a-python-project-using-uv-and-manage-dependencies/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Python Package and Project Manager Tool – uv</title>
+      
+      
+      
+      
+        
+      <category>Python</category>
+        
+      
+      <description>&lt;h1&gt;Python Package and Project Manager Tool – &lt;strong&gt;uv&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;uv&lt;/strong&gt; is a single tool that replaces &lt;code&gt;pip&lt;/code&gt;, &lt;code&gt;pip-tools&lt;/code&gt;, &lt;code&gt;pipx&lt;/code&gt;, &lt;code&gt;poetry&lt;/code&gt;, &lt;code&gt;pyenv&lt;/code&gt;, &lt;code&gt;twine&lt;/code&gt;, `virtualenv...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2025/09/11/python-package-and-project-manager-tool--uv/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2025/09/11/python-package-and-project-manager-tool--uv/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2025/09/11/python-package-and-project-manager-tool--uv/</guid>
+      
+    </item>
+    
+    <item>
+      <title>AI System Design</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;AI System Design&lt;/h1&gt;
+&lt;p&gt;AI System design consists of three paradigms&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Single LLM feature &lt;/li&gt;
+&lt;li&gt;Structure Workflow &lt;/li&gt;
+&lt;li&gt;Autonomous Agents&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Single LLM&lt;/h2&gt;
+&lt;p&gt;Single LL...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/14/ai-system-design/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/14/ai-system-design/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/14/ai-system-design/</guid>
+      
+    </item>
+    
+    <item>
+      <title>LLM API for building AI Agents</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;LLM API for building AI Agents&lt;/h1&gt;
+&lt;p&gt;I set up a development environment to learn how to use provider APIs to call their LLM models. I use the OpenAI API to call...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/15/llm-api-for-building-ai-agents/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/15/llm-api-for-building-ai-agents/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/15/llm-api-for-building-ai-agents/</guid>
+      
+    </item>
+    
+    <item>
+      <title>LLM Stateless API Conversation Mangement</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;LLM Stateless API Conversation Mangement&lt;/h1&gt;
+&lt;p&gt;LLM APIs are stateless and each API call is independent and has no memory of previous call. The developer must ma...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/16/llm-stateless-api-conversation-mangement/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/16/llm-stateless-api-conversation-mangement/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/16/llm-stateless-api-conversation-mangement/</guid>
+      
+    </item>
+    
+    <item>
+      <title>LLM Structured Output</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;LLM Structured Output&lt;/h1&gt;
+&lt;p&gt;Natural language generated by LLMs is excellent for humans but inconvenient for programs to process. For an agent to call tools, it ...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/17/llm-structured-output/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/17/llm-structured-output/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/17/llm-structured-output/</guid>
+      
+    </item>
+    
+    <item>
+      <title>LLM Asynchronous Calls: Speeding Up Your AI Agents</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;LLM Asynchronous Calls: Speeding Up Your AI Agents&lt;/h1&gt;
+&lt;p&gt;When developing an agent, you often need to process multiple LLM requests simultaneously. This includes...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/18/llm-asynchronous-calls-speeding-up-your-ai-agents/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/18/llm-asynchronous-calls-speeding-up-your-ai-agents/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/18/llm-asynchronous-calls-speeding-up-your-ai-agents/</guid>
+      
+    </item>
+    
+    <item>
+      <title>AI Agent - Prompt Engineering</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;AI Agent - Prompt Engineering&lt;/h1&gt;
+&lt;p&gt;Prompt engineering is the practice of instructing a large language model (LLM) to behave effectively as an agent. A prompt ...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/19/ai-agent---prompt-engineering/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/19/ai-agent---prompt-engineering/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/19/ai-agent---prompt-engineering/</guid>
+      
+    </item>
+    
+    <item>
+      <title>AI Agent - Tool Calling or Function Calling</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;AI Agent - Tool Calling or Function Calling&lt;/h1&gt;
+&lt;p&gt;LLM interact with external tools through the structured tool calling or function calling. It is a key componen...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---tool-calling-or-function-calling/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---tool-calling-or-function-calling/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---tool-calling-or-function-calling/</guid>
+      
+    </item>
+    
+    <item>
+      <title>AI Agent - Running and Connecting the MCP server</title>
+      
+      
+      
+      
+        
+      <category>AI</category>
+        
+      
+      <description>&lt;h1&gt;AI Agent - Running and Connecting the MCP server&lt;/h1&gt;
+&lt;p&gt;MCP servers in the ecosystems are distributed as npm packages and run using npx. You can verify the node ...&lt;/p&gt;</description>
+      <link>https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---running-and-connecting-the-mcp-server/</link>
+      <pubDate>Thu, 23 Apr 2026 23:16:48 +0000</pubDate>
+      <source url="https://yuvarajk7.github.io/yblog/feed_rss_updated.xml">Yuvaraj AI Blog</source>
+      <comments>https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---running-and-connecting-the-mcp-server/#__comments</comments>
+      <guid isPermaLink="true">https://yuvarajk7.github.io/yblog/2026/04/21/ai-agent---running-and-connecting-the-mcp-server/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
