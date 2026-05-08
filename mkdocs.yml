@@ -53,7 +53,7 @@ plugins:
       minify_js: true
       minify_css: true
       htmlmin_opts:
-      remove_comments: true
+        remove_comments: true
       cache_safe: true
   - blog:
       blog_dir: .
@@ -64,8 +64,7 @@ plugins:
         - Programming
         - AI
         - Python
-  - tags:
-      tags_file: tags.md
+  - tags
   - rss:
       feed_title: "Yuvaraj AI Blog"
       feed_description: "Yuvaraj article feeds"
@@ -79,7 +78,6 @@ plugins:
       categories:
         - categories
       comments_path: "#__comments"
-      exclude_unreferenced: true
       feed_ttl: 1440
       length: 20
       feeds_filenames:

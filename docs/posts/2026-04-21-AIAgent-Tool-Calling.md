@@ -19,31 +19,31 @@ An external system then interprets this structured output, executes the actual f
 
 ## Workflow
 
-    1. Define a weather tool and ask question like "What's the weather like in TX?"
-    2. The model halts regular text generation and outputs a structured tool call with parameter values (e.g., "location": "TX").
-    3. Extract the tool input, execute the actual weather function, and obtain the weather details.
-    4. Pass the output back to the model so it can generate a complete final answer using the real-time data.
+- Define a weather tool and ask question like "What's the weather like in TX?"
+- The model halts regular text generation and outputs a structured tool call with parameter values (e.g., "location": "TX").
+- Extract the tool input, execute the actual weather function, and obtain the weather details.
+- Pass the output back to the model so it can generate a complete final answer using the real-time data.
 
 Function calling and Tool calling both are same capability by enabling an LLM to request specific external functions to be executed with structured parameters. Function calling term coined by OpenAI in their documentation.
 
 ## Key principles keep in mind when developing tool calling:
 
-    1. Clear purpose - make sure tool has well defined task
-    2. Standardized input - The tool shoud accept input in a predictable, structured format.
-    3. Consistent output - The format which is easy to process and integrate with other system
-    4. Comprehensive Documentation - explain what the tool does, how to use it and any limitations
-    5. Limit the number of functions - keep the number of tools under 20. Using too many tools can lead to selection errors. 
+- Clear purpose - make sure tool has well defined task
+- Standardized input - The tool shoud accept input in a predictable, structured format.
+- Consistent output - The format which is easy to process and integrate with other system
+- Comprehensive Documentation - explain what the tool does, how to use it and any limitations
+- Limit the number of functions - keep the number of tools under 20. Using too many tools can lead to selection errors. 
 
 ## To enable tool calling,
 
 ### Specify Tool Definitions
 The function has 3 essencial components
 
-    - name
-    - description
-    - parameters
+- name
+- description
+- parameters
 
-```json
+```json { .python .small-code }
 calc_tool_def = {
     "type": "function",
     "function": {
@@ -74,7 +74,7 @@ calc_tool_def = {
 
 ### Setup the tool
 
-```python
+```python  { .python .small-code }
 def calculator(operator: str, operand1: float, operand2: float):
    if operator == 'add':
        return operand1 + operand2
@@ -92,7 +92,7 @@ def calculator(operator: str, operand1: float, operand2: float):
 
 ### Executing the tool calling
 
-```python
+``` { .python .small-code }
 from litellm import completion
 
 tools = [calc_tool_def]
@@ -119,13 +119,22 @@ response_with_tool = completion(
 print(response_with_tool.choices[0].message.content)
 # I'll use the calculator tool to divide 10 by 2 for you.
 print(response_with_tool.choices[0].message.tool_calls)
-# [ChatCompletionMessageToolCall(index=1, caller={'type': 'direct'}, function=Function(arguments='{"operator": "divide", "operand1": 10, "operand2": 2}', name='calc'), id='toolu_01XXWamC3kDafkNYbBv2EXic', type='function')]
+# [ChatCompletionMessageToolCall(
+#     index=1,
+#     caller={'type': 'direct'},
+#     function=Function(
+#         arguments='{"operator": "divide", "operand1": 10, "operand2": 2}',
+#         name='calc'
+#     ),
+#     id='toolu_01XXWamC3kDafkNYbBv2EXic',
+#     type='function'
+# )]
 
 ```
 
 ### Feedback the result to the LLM
 
-```python
+```python { .python .small-code }
 ai_message = response_with_tool.choices[0].message
 
 messages = []
@@ -156,7 +165,29 @@ final_response = completion(
    tools=tools
 )
 print("Messages: ", messages)
-# Messages:  [{'role': 'assistant', 'content': "I'll use the calculator tool to divide 10 by 2 for you.", 'tool_calls': [ChatCompletionMessageToolCall(index=1, caller={'type': 'direct'}, function=Function(arguments='{"operator": "divide", "operand1": 10, "operand2": 2}', name='calc'), id='toolu_01XXWamC3kDafkNYbBv2EXic', type='function')]}, {'role': 'tool', 'tool_call_id': 'toolu_01XXWamC3kDafkNYbBv2EXic', 'content': '5.0'}]
+# Messages: [
+#     {
+#         'role': 'assistant',
+#         'content': "I'll use the calculator tool to divide 10 by 2 for you.",
+#         'tool_calls': [
+#             ChatCompletionMessageToolCall(
+#                 index=1,
+#                 caller={'type': 'direct'},
+#                 function=Function(
+#                     arguments='{"operator": "divide", "operand1": 10, "operand2": 2}',
+#                     name='calc'
+#                 ),
+#                 id='toolu_01XXWamC3kDafkNYbBv2EXic',
+#                 type='function'
+#             )
+#         ]
+#     },
+#     {
+#         'role': 'tool',
+#         'tool_call_id': 'toolu_01XXWamC3kDafkNYbBv2EXic',
+#         'content': '5.0'
+#     }
+# ]
 
 print("Final Answer:", final_response.choices[0].message.content)
 #Final Answer: 10 divided by 2 equals 5.
@@ -166,8 +197,8 @@ print("Final Answer:", final_response.choices[0].message.content)
 
 Tool calling enables LLMs to go beyond static text generation by:
 
-    - Accessing real-time data
-    - Performing computations
-    - Integrating with external systems
+- Accessing real-time data
+- Performing computations
+- Integrating with external systems
 
 It is a foundational capability for building intelligent, autonomous AI agents.

@@ -6,6 +6,7 @@ mkdocs-material~=9.6.14
 mkdocs-material-extensions~=1.3
 pygments~=2.16
 pymdown-extensions~=10.2
+click<8.2  # mkdocs 1.6.x serve --livereload default breaks on click 8.2+ (flag_value regression)
 
 # plugins
 babel~=2.10

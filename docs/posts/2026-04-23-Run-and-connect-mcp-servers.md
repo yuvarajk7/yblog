@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2026-04-21
+    created: 2026-04-23
 categories:
     - AI
 tags:

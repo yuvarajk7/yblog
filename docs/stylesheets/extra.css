@@ -6,11 +6,11 @@ h1, h2, h3, h4, h5, h6 {
 
 body, .md-typeset {
   font-size: 18px;      /* Between 16px and 18px */
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 body, .md-typeset p {
-  text-align: justify;
+  text-align: left;
 }
 
 header.md-typeset > p:first-child {
@@ -23,4 +23,18 @@ code, pre, .md-typeset code, .md-typeset pre {
   line-height: 1.5;          /* Between 1.4–1.6 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keep horizontal overflow inside line-numbered code blocks (not the page) */
+.md-typeset .highlighttable {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Per-block opt-in: ```{ .python .small-code } */
+.md-typeset .small-code,
+.md-typeset .small-code code,
+.md-typeset .small-code pre {
+  font-size: 12px;
 }
